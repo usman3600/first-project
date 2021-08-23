@@ -1,0 +1,43 @@
+/*
+ New perpective on html and learning css
+        tutorail 8: case 4
+
+        Arthur-Name:UsmanFaki
+        Date:21/08/2021
+
+        current file: Browyer.html
+        support files include: css(brbase, breffects, brlayout, brmobile, brprint),
+        images(brlogo, img01-img09), text(listing), script(modernizr-1.5.js)
+*/
+
+/*style of the nav vertical*/
+nav.vertical{
+        box-shadow: gray inset -10px -10px 5px;
+}
+/*style when the mouse hovers*/
+header#desktop nav.horizontal ul li:hover{
+        background-color: rgba(218, 212, 212, 0.1);
+        border-radius: 10px;
+}
+/*style when the mouse hovers*/
+header#desktop nav.horizontal ul li a:hover{
+        color: #482ff7;
+}
+/*style when the mouse mover the odd pictures*/
+nav.vertical ul li a img.odd:hover{
+        transform: rotate(5deg);
+}
+/*style when the mouse mover the even pictures*/
+nav.vertical ul li a img.even:hover{
+        transform: rotate(-5deg);
+}
+/*style of the last list*/
+nav.vertical ul li a#last img{
+        transform: none;
+}
+/*style of the horizontal nav list*/
+header#desktop nav.horizontal ul li:hover{
+        box-shadow: rgb(87, 85, 85) inset -5px -5px 25px,
+        rgb(87, 85, 85) inset 5px 5px 25px;
+}
+

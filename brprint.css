@@ -1,0 +1,121 @@
+/*
+ New perpective on html and learning css
+        tutorail 8: case 4
+
+        Arthur-Name:UsmanFaki
+        Date:21/08/2021
+
+        current file: Browyer.html
+        support files include: css(brbase, breffects, brlayout, brmobile, brprint),
+        images(brlogo, img01-img09), text(listing), script(modernizr-1.5.js)
+*/
+header#desktop nav.horizontal, div.slider{
+        display: none;
+}
+@page{
+        size: 8.5in 11in portrait;
+        margin: 0.5in;
+}
+header#desktop h1{
+       
+       color: #482ff7;
+        font-size: 50px;
+        font-family: cursive;
+        position:fixed;
+        top: 0in;
+        left: 2.5in;
+        
+}
+nav.vertical{
+        display: none;
+}
+footer{
+        vertical-align: bottom;
+        position: fixed;
+        top: 9in;
+        left: 1in;
+}
+/*stytle of the section*/
+section#main{
+        display: flex;
+        justify-self: right;
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: fit-content;
+}
+article{
+        width: 95%;
+        
+}
+/*style of the h1 heading*/
+h1.heading{
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 1px solid #482ff7;
+        background:linear-gradient(to right, gray, white );
+        color: #482ff7;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+        font-size: 150%;
+        font-weight: 900;
+        margin: 100px 0px 0px 12px;
+        padding: 5px 0px;
+        width: auto;
+}
+/*style o the paragraph in the article*/
+article P{
+        font-size: 15px;
+        margin-top: 15px;
+        text-align: justify;
+        
+}
+/*style of the second class*/
+article p.second{
+        text-indent: 10px;
+}
+/*style of the first letter in the paragraph*/
+article p:first-of-type::first-letter{
+        text-indent: 0;
+        font-size: 2em;
+        float: left;
+}
+/*style of the aside element*/
+aside{
+        height: fit-content;
+        padding: 2px;
+        margin: 0px 10px;
+}
+/*style of the descriptic list*/
+        dl{
+                display: table;
+        }
+        div{
+                display: table-row;
+        }
+        dt, dd{
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                height: 50px;
+                font-size: 12px;
+                border: 1px solid #482ff7;
+        }
+/*style of the h1 heading in the aside*/
+aside h1{
+        text-align: center;
+        margin-bottom: 3px;
+        color: #482ff7;
+}
+nav.vertical{
+        display:none;
+}
+div.slider{
+        display: block;
+}
+button.btn{
+        display: none;
+}
+div.slider ul li img.remaining{
+        margin-top: 2in;
+}

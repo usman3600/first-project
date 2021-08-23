@@ -1,0 +1,210 @@
+/*
+ New perpective on html and learning css
+        tutorail 8: case 4
+
+        Arthur-Name:UsmanFaki
+        Date:21/08/2021
+
+        current file: Browyer.html
+        support files include: css(brbase, breffects, brlayout, brmobile, brprint),
+        images(brlogo, img01-img09), text(listing), script(modernizr-1.5.js)
+*/
+/*style of the body element*/
+body{
+        min-width: 1000px;
+}
+/*style of the header*/
+header#desktop {
+        background: linear-gradient(to right, gray, white 50%);
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid blueviolet;
+}
+/*style of the header img*/
+header#desktop h1{
+        color: #482ff7;
+        font-size: 1.8em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 2px;
+        font-weight: 700;
+        width: 30%;
+}
+/*style of the nav*/
+header#desktop nav.horizontal{
+        
+        margin-right: 10px;
+}
+/*style of the horizontal*/
+header#desktop nav.horizontal ul{
+        display: flex;
+        
+}
+/*style of the list in the nav*/
+header#desktop nav.horizontal ul li{
+        padding: 2px 5px;
+        margin-right: 10px;
+}
+/*style of the hypetext links*/
+header#desktop nav.horizontal ul li a{
+        color:gray;
+}
+
+/*stytle of the section*/
+section#main{
+        display: flex;
+        justify-self: right;
+        margin: 0px auto;
+        padding: 5px 10px;
+        width: fit-content;
+}
+
+/*style of the nav vertical list*/
+nav.vertical{
+        min-width: 265px;
+        display: block;
+        float: left;
+        width: 22%;
+        margin-bottom: 30px;
+        
+
+}
+/*style of the h1 heading*/
+nav.vertical h1{
+        font-size: 15px;
+        color: #482ff7;
+        text-align: center;
+        vertical-align: middle;
+        
+}
+/*style of the entire list*/
+nav.vertical ul{
+        margin: 10px auto;
+}
+/*style of the image*/
+nav.vertical ul li img{     
+        height: 120px;
+        width: 100px;
+}
+/*style of the entire*/
+nav.vertical ul li a span{
+        font-size: 12px;
+        display: block;
+        text-align: center;
+        
+}
+/*style of the list items*/
+nav.vertical ul li{
+        margin: 5px 10px;
+        display: inline-flex;
+}
+
+/*style of the typelinks*/
+nav.vertical ul li#lastx{
+        display: block;
+        width: fit-content;
+}
+nav.vertical ul li a#last img{
+        height: 150px;
+        width: 220px;
+}
+/*style of the article*/
+article{
+        width: 95%;
+        
+}
+/*style of the h1 heading*/
+h1.heading{
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 1px solid #482ff7;
+        background:linear-gradient(to right, gray, white );
+        color: #482ff7;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 3px;
+        font-size: 150%;
+        font-weight: 900;
+        margin: 0px 0px 0px 12px;
+        padding: 5px 0px;
+        width: auto;
+}
+/*style o the paragraph in the article*/
+article P{
+        font-size: 15px;
+        margin-top: 15px;
+        text-align: justify;
+        
+}
+/*style of the second class*/
+article p.second{
+        text-indent: 10px;
+}
+/*style of the first letter in the paragraph*/
+article p:first-of-type::first-letter{
+        text-indent: 0;
+        font-size: 2em;
+        float: left;
+}
+/*style of the aside element*/
+aside{
+        height: fit-content;
+        padding: 2px;
+        margin: 0px 10px;
+}
+/*style of the descriptic list*/
+        dl{
+                display: table;
+        }
+        div{
+                display: table-row;
+        }
+        dt, dd{
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                height: 50px;
+                font-size: 12px;
+                border: 1px solid #482ff7;
+        }
+/*style of the h1 heading in the aside*/
+aside h1{
+        text-align: center;
+        margin-bottom: 3px;
+        color: #482ff7;
+}
+/*style of the footer*/
+footer{
+        background: linear-gradient(to right, #482ff7, gray, white);
+        display: flex;
+        justify-content: space-between;
+        clear: both;
+        height: 30px;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+}
+/*style of the div container*/
+div.image-container{
+        display: inline-flex;
+        margin:0px 50px 50px 50px;
+        height: 550px;
+        overflow: auto;
+        width: 60%;
+}
+
+/*style of the image*/
+div.image-container img{
+        margin: 10px 10px;
+        min-width: fit-content;
+}
+/*style of the span element*/
+footer span a{
+        color: #482ff7;
+        font-size: 13px;
+        margin-right: 10px;
+}
+header.header{
+        display: none;
+}

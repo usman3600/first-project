@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            New perpective on html and learning css
+            tutorail 8: case 4
+
+            Arthur-Name:UsmanFaki
+            Date:21/08/2021
+
+            current file: Browyer.html
+            support files include: css(brbase, breffects, brlayout, brmobile, brprint),
+            images(brlogo, img01-img09), text(listing), script(modernizr-1.5.js)
+        -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Browyer Realty</title>
+        <script src="modernizr-1.5.js"></script>
+        <script src="slideshow.js"></script>
+        <link href="brbase.css" rel="stylesheet"/>
+        <link href="brlayout.css" rel="stylesheet" media="only screen and (min-width: 601px)"/>
+        <link href="breffects.css" rel="stylesheet" media="only screen and (min-width: 601px)"/>
+        <link href="brmobile.css" rel="stylesheet" media="only screen and (max-width: 600px)"/>
+        <link href="style.css" rel="stylesheet" media="only screen and (min-width: 601px)"/>
+        <link href="brprint.css" rel="stylesheet" media="print"/>
+    </head>
+    <body>
+        <header id="desktop">
+           <h1>Brower Realty</h1>
+
+            <nav class="horizontal">
+                <ul>
+                    <li><a href="#">Home Page</a></li>
+                    <li><a href="#">Residential</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Rentals</a></li>
+                    <li><a href="#">Appraisals</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <nav class="vertical">
+            <h1>Views</h1>
+            <ul>
+                <li>
+                    <a href="img01.jpg"><img class="odd" src="img01.jpg" alt="photo"/><span>Front View</span></a>
+                    
+                </li>
+                <li>
+                    <a href="img02.jpg"><img class="even" src="img02.jpg" alt="photo"/><span>Rear View</span></a>
+                    
+                </li>
+                <li>
+                    <a href="img03.jpg"><img class="odd" src="img03.jpg" alt="photo"/><span>Side View</span></a>
+                    
+                </li>
+                <li>
+                    <a href="img04.jpg"><img class="even" src="img04.jpg" alt="photo"/><span>Dining Room</span></a>
+                    
+                </li>
+                <li>
+                    <a href="img05.jpg" "><img class="odd" src="img05.jpg" alt="photo"/><span>Kitchen</span></a>
+                    
+                </li>
+                <li>
+                    <a href="img06.jpg"><img  class="even" src="img06.jpg" alt="photo"/><span>Living Room</span></a>
+                    
+                </li>
+                <li>
+                    <a href="img07.jpg" ><img  class="odd" src="img07.jpg" alt="photo"/><span>Bedroom 1</span></a>
+                    
+                </li>
+                <li>
+                    <a href="img08.jpg"><img class="even" src="img08.jpg" alt="photo"/><span>Bedroom 2</span></a>
+                    
+                </li>
+                <li id="lastx">
+                    <a id="last" href="img09.jpg"><img src="img09.jpg" alt="photo"/><span>Side View</span></a>
+                    
+                </li>
+            </ul>
+        </nav>
+        <h1 class="heading">Listing 20481</h1>
+        <section id="main">
+            <article>
+                
+                <p>
+                    Paradise found! This custom-built brand new home sits proudly on a 6.8-acre
+                    high wooded site overlooking a 300-acre nature conservancy. The setting is
+                    exceptional, and the home is every bit as exciting! A bright, open layout is 
+                    enhanced by vaulted ceilings, hardwood and tumbled, ceramic flooring, custom 
+                    maple cabinetry, upgraded fixtures, numerous windows, and incredible views.
+                </p>
+
+                <p class="second">
+                    There is much more. The property includes a 40x54 storage building - perfect
+                    for a large boat and machinery. An exposed walkout on lower level leads down to
+                    a beautiful wooded area.
+                </p>
+
+                <p class="second">
+                    There is much more. The property includes a 40x54 storage building - perfect
+                    for a large boat and machinery. An exposed walkout on lower level leads down to
+                    a beautiful wooded area.
+                </p>
+            </article>
+
+            
+
+            <aside id="right">
+                <h1>Listing Description</h1>
+                <dl>
+                    <div>
+                        <dt>Address</dt>
+                        <dd>Listing 20481
+                            414 Mandel Road
+                            Owatonna, MN  55060
+                        </dd>
+                    </div>
+                    <div>
+                        <dt>List Price</dt>
+                        <dd>$393,500</dd>
+                    </div>
+                    <div>
+                        <dt>Bedrooms</dt>
+                        <dd>4</dd>
+                    </div>
+                    <div>
+                        <dt>Baths</dt>
+                        <dd>2 1/2</dd>
+                    </div>
+                </dl>
+            </aside>
+        </section>
+        <div class="slider">
+            <button class="btn" id="prevPicture">Prev</button>
+            <ul>
+                <li><img height="600" width="800" src="img01.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img02.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img03.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img04.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img05.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img06.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img07.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img08.jpg"></li>
+                <li><img class="remaining" height="600" width="800" src="img09.jpg"></li>
+            </ul>
+            <button class="btn" id="nextPicture">Next</button>
+        </div>
+        
+            <script src="app.js"></script>     
+        <footer>
+            <span>&copy; Browyer Realty 2021</span>
+            <span>
+                <a href="#">More Details</a>
+                <a href="#">Map</a>
+                <a href="#">Request a Showing</a>
+                <a href="#">Other Listings</a>
+            </span>
+        </footer>
+    </body>
+</html>
